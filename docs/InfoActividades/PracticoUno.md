@@ -34,8 +34,6 @@ Exploración del dataset Iris, implementando las librerías seaborn, scikit-lear
      El dataset es de una planta de iris, esta es una flor colorida la cual se eligió porque tiene caracterísicas medibles como la longitud y el ancho del sépalo y el pétalo, de ahí salen sus 3 subespecies: iris versicolor, setosa y virginica.
      El mismo contiene 3 clases con 50 instancias cada una.
 
-  ![alt text](image.png)
-
 - 3.  Preguntas de negocio:
       Escribe 3–5 preguntas propias y ordénalas por prioridad.
 
@@ -49,9 +47,9 @@ Resumen de lo realizado, decisiones y resultados intermedios.
 
 ## Evidencias
 
-![Exploración inicial](../assets/exploracionInicial.png){ width="420" }
-![Descripción del dataset](../assets/descripcion.png){ width="420" }
-![Visualizaciones](../assets/visualizaciones.png){ width="420" }
+![Exploración inicial](../assets/practico1/exploracionInicial.png){ width="420" }
+![Descripción del dataset](../assets/practico1/diccionariodatos.png){ width="420" }
+![Visualizaciones](../assets/practico1/visualizaciones.png){ width="420" }
 
 ## Reflexión
 
