@@ -8,6 +8,5 @@ date: 2025-01-01
 Bienvenido a las entradas del portafolio. Usá la plantilla para crear nuevas páginas numeradas
 (`01-...`, `02-...`).
 
-- Plantilla: [plantilla.md](plantilla.md)
+- Actividad 1 - Dataset Iris: [PracticoUno](../InfoActividades/PracticoUno.md)
 - Primera entrada: [01-primera-entrada.md](01-primera-entrada.md)
-
