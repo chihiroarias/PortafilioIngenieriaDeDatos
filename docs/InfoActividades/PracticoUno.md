@@ -47,9 +47,11 @@ Resumen de lo realizado, decisiones y resultados intermedios.
 
 ## Evidencias
 
-![Exploración inicial](../assets/practico1/exploracionInicial.png){ width="420" }
-![Descripción del dataset](../assets/practico1/diccionariodatos.png){ width="420" }
-![Visualizaciones](../assets/practico1/visualizaciones.png){ width="420" }
+![Exploración inicial](../assets/practico1/exploracionInicial.png)
+![Descripción del dataset](../assets/practico1/diccionariodatos.png)
+![Visualizaciones](../assets/practico1/visualizaciones.png)
+
+- Ingresar al análisis [Open Practicos](../../Practicos/practico1.ipynb)
 
 ## Reflexión
 
