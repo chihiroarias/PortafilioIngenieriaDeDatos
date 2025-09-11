@@ -25,44 +25,21 @@ La idea normalizar los datos y relizar las combinaciones que nos permitan facili
 - 4. Análisis por Borough - 20 min
 - 4. Análisis por Borough y Día Especial - 15 min
 - 5. Aplicación de técnicas para datasets grandes - 30 min
+- 6. Documentación y reflexiones- 30 min
 
 ## Desarrollo
 
-- 1. Investigación del dataset:
-     El dataset es de Netflix, contiene información detallada sobre el catálogo de contenido de la plataforma.
+- 1. Carga de datos multi-fuente: Se importaron 3M de registros de viajes desde Parquet, la tabla de lookup de zonas desde CSV y el calendario de eventos desde JSON.
 
-- 2.  Limpieza de datos:
-      La limpieza mostró una gran parcela de datos faltantes, ante eso se realizó un análisis de los datos faltantes. Posteriormente se descartaron incongruencias o datos con anomalías.
+- 2. Limpieza y normalización: Estandarización de nombres de columnas, optimización de tipos de datos (reducción de memoria en 8.1%), manejo de valores nulos y creación de columna de fecha para joins.
 
-- 3.  Análisis de los datos:
-      Primeramente se realizaron diversos análisis del contenido:
-      - Por categrías
-      - Temporal
-      - Geográfico
-      - Por género
+- 3. Joins de datos: LEFT JOIN entre trips y zones para enriquecimiento geográfico (99.9% de match rate), seguido de LEFT JOIN con calendario para identificar días especiales.
 
-- 4. Visualizaciones:
-     Se realizaron las visualizaciones con el fin de contestar las siguientes preguntas:
+- 4. Análisis por Borough: Agregaciones con groupby para calcular métricas clave: número de viajes, distancia promedio, tarifa promedio, revenue por km y tasa de propina por borough.
 
-     ¿Qué tipo de visualización es más efectiva para mostrar distribuciones temporales? 💡 PISTA: Compara line plot vs area plot vs bar plot
+- 5. Aplicación de técnicas para datasets grandes: Muestreo estratificado para big data, análisis comparativo días especiales vs normales, y análisis temporal por hora para identificar patrones de demanda.
 
-     ¿Por qué usamos diferentes tipos de gráficos para diferentes datos? 💡 PISTA: 🔗 Guía de tipos de gráficos
-
-     ¿Qué insights de negocio obtuviste que Netflix podría usar? 💡 PISTA: Piensa en estrategias de contenido, mercados objetivo, tipos de producción
-
-     ¿Cuál fue la visualización más reveladora y por qué? 💡 PISTA: ¿Qué patrón no esperabas ver?
-
-     ¿Cómo mejorarías este análisis con más datos? 💡 PISTA: Datos de audiencia, ratings de IMDb, presupuestos, etc.
-
-     Dentro de las visualizaciones vemos:
-
-     Datos faltantes: Muestra columnas con valores nulos, clave para la limpieza de datos.
-
-     Análisis temporal: Ilustra la evolución del catálogo de Netflix a lo largo del tiempo.
-
-     Análisis geográfico: Presenta la distribución del contenido por países de origen.
-
-- 5. Documentación: Registro dentro de el portafolio y responder las preguntas en base a la infromación analizadad.
+- 6. Documentación: Registro dentro de el portafolio y responder las preguntas en base a la infromación analizadad.
 
 ## Evidencias
 

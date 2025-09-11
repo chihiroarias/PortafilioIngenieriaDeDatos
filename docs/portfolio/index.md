@@ -7,4 +7,5 @@ date: 2025-10-09
 
 - Actividad 1 - Dataset Iris: [PracticoUno](../InfoActividades/PracticoUno.md)
 - Actividad 2 - Esta consistía en el deploy del propio portafolio.
-- Actividad 3 - Dataset Netflix: [PracticoUno](../InfoActividades/PracticoTres.md)
+- Actividad 3 - Dataset Netflix: [PracticoTres](../InfoActividades/PracticoTres.md)
+- Actividad 4 - Dataset Taxis: [PracticoCuatro](../InfoActividades/PracticoCuatro.md)
