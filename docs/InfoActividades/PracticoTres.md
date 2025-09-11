@@ -68,7 +68,7 @@ Exploración del dataset dde netflix
 ![Análisis temporal](../assets/practico2/analissiTemporal.png)
 ![Análisis geográfico](../assets/practico2/analisisGeograficoE2.png)
 
-- Ingresar al análisis [Open Practicos](../../Practicos/Practico_3.ipynb)
+- Ingresar al análisis [Open Practicos](../../Practicos/practico3.ipynb)
 
 ## Reflexión
 
