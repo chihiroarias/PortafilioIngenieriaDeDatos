@@ -51,7 +51,7 @@ Resumen de lo realizado, decisiones y resultados intermedios.
 ![Descripción del dataset](../assets/practico1/diccionariodatos.png)
 ![Visualizaciones](../assets/practico1/visualizaciones.png)
 
-- Ingresar al análisis [Open Practicos](../../Practicos/practico1.ipynb)
+- Ingresar al análisis [Open Practicos](../Practicos/practico1.ipynb)
 
 ## Reflexión
 

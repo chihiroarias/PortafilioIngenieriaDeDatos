@@ -47,8 +47,8 @@ La idea normalizar los datos y relizar las combinaciones que nos permitan facili
 ![Técnicas del dataset](../assets/practico3/tecnicasDatasetE3.png)
 ![Matriz de correlación](../assets/practico3/matrizCorrelacionesE3.png)
 
-- Ingresar al análisis [Abrir Practico 4](../../Practicos/Practico_4.ipynb)
-- Ingresar al análisis bonus [Abrir Practico 4 bonus ](../../Practicos/Practico4_Bonus.ipynb)
+- Ingresar al análisis [Abrir Practico 4](../Practicos/Practico_4.ipynb)
+- Ingresar al análisis bonus [Abrir Practico 4 bonus ](../Practicos/Practico4_Bonus.ipynb)
 
 ## Reflexión
 
