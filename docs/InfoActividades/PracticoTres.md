@@ -68,8 +68,8 @@ Exploración del dataset dde netflix
 ![Análisis temporal](../assets/practico2/analissiTemporal.png)
 ![Análisis geográfico](../assets/practico2/analisisGeograficoE2.png)
 
-- Ingresar al análisis [Open Practicos](../../Practicos/practico3.ipynb)
+- Ingresar al análisis [Abrir Practicos](../../Practicos/practico3.ipynb)
 
 ## Reflexión
 
-Esta actividad sirvió como un primer acercamiento a la materia, familiarizando a los estudiantes con las tecnologías a implementar y al contexto en cuál se somete un profesional al realizar análisis de datos.
+El análisis del dataset de Netflix destacó la importancia de una limpieza rigurosa de datos y el uso de visualizaciones efectivas para identificar tendencias clave de contenido y oportunidades de mercado.
