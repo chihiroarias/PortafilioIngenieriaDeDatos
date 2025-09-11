@@ -38,15 +38,35 @@ Exploración del dataset dde netflix
       - Geográfico
       - Por género
 
-- 4. Visualizaciones: Por último la información se desplegó el dashboard, mostrando en simultáneo diversas métricas para responder a las preguntas planteadas
+- 4. Visualizaciones:
+     Se realizaron las visualizaciones con el fin de contestar las siguientes preguntas:
+
+     ¿Qué tipo de visualización es más efectiva para mostrar distribuciones temporales? 💡 PISTA: Compara line plot vs area plot vs bar plot
+
+     ¿Por qué usamos diferentes tipos de gráficos para diferentes datos? 💡 PISTA: 🔗 Guía de tipos de gráficos
+
+     ¿Qué insights de negocio obtuviste que Netflix podría usar? 💡 PISTA: Piensa en estrategias de contenido, mercados objetivo, tipos de producción
+
+     ¿Cuál fue la visualización más reveladora y por qué? 💡 PISTA: ¿Qué patrón no esperabas ver?
+
+     ¿Cómo mejorarías este análisis con más datos? 💡 PISTA: Datos de audiencia, ratings de IMDb, presupuestos, etc.
+
+     Dentro de las visualizaciones vemos:
+
+     Datos faltantes: Muestra columnas con valores nulos, clave para la limpieza de datos.
+
+     Análisis temporal: Ilustra la evolución del catálogo de Netflix a lo largo del tiempo.
+
+     Análisis geográfico: Presenta la distribución del contenido por países de origen.
 
 - 5. Documentación: Registro dentro de el portafolio y responder las preguntas en base a la infromación analizadad.
 
 ## Evidencias
 
-![Exploración inicial](../assets/practico1/exploracionInicial.png)
-![Descripción del dataset](../assets/practico1/diccionariodatos.png)
-![Visualizaciones](../assets/practico1/visualizaciones.png)
+![Datos faltantes](../assets/practico2/datosfaltantes.png)
+![Análisis Temporal](../assets/practico2/analisisTemporalE2.png)
+![Análisis temporal](../assets/practico2/analissiTemporal.png)
+![Análisis geográfico](../assets/practico2/analisisGeograficoE2.png)
 
 - Ingresar al análisis [Open Practicos](../../Practicos/Practico_3.ipynb)
 
