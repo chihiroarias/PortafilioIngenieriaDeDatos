@@ -1,13 +1,11 @@
 ---
-title: "Portafolio — Inicio"
-date: 2025-01-01
+title: "Índice del Portafolio"
+date: 2025-10-09
 ---
 
-# Portafolio — Inicio
+# Portafolio
 
-Bienvenido al portafolio del curso. Aquí documentarás tu progreso,
-evidencias y reflexiones a lo largo del semestre.
-
-- Revisa la sección "Acerca de mí" para presentarte.
-- Crea entradas en `Portfolio` usando la plantilla provista.
-- Mantén objetivos, actividades y evidencias claros por entrada.
+- Actividad 1 - Dataset Iris: [PracticoUno](../InfoActividades/PracticoUno.md)
+- Actividad 2 - Esta consistía en el deploy del propio portafolio.
+- Actividad 3 - Dataset Netflix: [PracticoTres](../InfoActividades/PracticoTres.md)
+- Actividad 4 - Dataset Taxis: [PracticoCuatro](../InfoActividades/PracticoCuatro.md)
