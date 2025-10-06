@@ -1,9 +1,9 @@
 ---
-title: "UT1 - Practica 4 - Dataset Ames Housing"
+title: "UT1 - Practica 5 - Dataset Ames Housing"
 date: 2025-09-16
 ---
 
-# UT1 - Actividad 4 - Dataset Ames Housing
+# UT2 - Actividad 5 - Dataset Ames Housing
 
 ## Contexto
 
@@ -68,7 +68,6 @@ Configuración del entorno con las librerías necesarias (pandas, numpy, matplot
 ### 7. Pipeline Reproducible
 
 Creación de pipeline con ColumnTransformer para procesamiento separado de variables numéricas y categóricas.
-
 
 ## Reflexión
 

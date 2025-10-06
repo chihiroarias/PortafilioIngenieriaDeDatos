@@ -1,4 +1,9 @@
-# UT1 - Actividad 6 - Escalado de Datos y Comparación de Modelos
+---
+title: "UT2 - Actividad 6 - Escalado de Datos y Comparación de Modelos"
+date: 2025-09-16
+---
+
+# UT2 - Actividad 6 - Escalado de Datos y Comparación de Modelos
 
 ## Contexto
 
