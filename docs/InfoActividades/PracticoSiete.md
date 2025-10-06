@@ -48,6 +48,10 @@ Análisis de sesgo en datasets históricos utilizando técnicas de machine learn
 - Fairness gain: 0.319
 - **Recomendación:** ✅ Usar modelo FAIR - excelente trade-off
 
+## Evidencias
+
+- Ingresar al análisis [Open Practicos](../Practicos/Practico7.ipynb)
+
 ## Reflexión
 
 Esta práctica demostró la importancia crítica de detectar y corregir sesgos en modelos de machine learning. En Boston Housing, la variable racial históricamente sesgada debe usarse solo con fines educativos, nunca en producción. En Titanic, Fairlearn demostró ser efectivo para reducir significativamente el sesgo de género con mínima pérdida de precisión. La elección entre detección y corrección depende del contexto: detección para análisis histórico, corrección para modelos en producción que afectan a personas reales.

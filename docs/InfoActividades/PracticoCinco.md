@@ -69,6 +69,10 @@ Configuración del entorno con las librerías necesarias (pandas, numpy, matplot
 
 Creación de pipeline con ColumnTransformer para procesamiento separado de variables numéricas y categóricas.
 
+## Evidencias
+
+- Ingresar al análisis [Open Practicos](../Practicos/Practico_5.ipynb)
+
 ## Reflexión
 
 Esta práctica permitió profundizar en el análisis de calidad de datos, destacando la importancia de identificar correctamente los patrones de missing data para aplicar estrategias de imputación apropiadas. La implementación de técnicas anti-leakage y la creación de pipelines reproducibles son esenciales para mantener la integridad de los modelos predictivos. El análisis comparativo pre/post imputación demostró cómo las diferentes estrategias afectan las distribuciones y correlaciones, siendo crucial documentar estas decisiones en proyectos reales.

@@ -89,6 +89,10 @@ Creación de pipeline con PowerTransformer para manejo óptimo de distribuciones
 
 **Impacto del leakage:** Inflación del 0.48% en R²
 
+## Evidencias
+
+- Ingresar al análisis [Open Practicos](../Practicos/Practico_6.ipynb)
+
 ## Reflexión
 
 Esta práctica demostró la importancia crítica del escalado de datos en machine learning. El PowerTransformer mostró mejor rendimiento en datos con distribuciones sesgadas típicas de precios inmobiliarios. La implementación de pipelines anti-leakage resultó esencial para evaluaciones honestas del modelo. La elección del escalador debe basarse en características específicas de los datos, siendo PowerTransformer especialmente útil para variables con alta skewness como las del dataset Ames Housing.
