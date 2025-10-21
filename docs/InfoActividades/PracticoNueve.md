@@ -66,4 +66,4 @@ Análisis práctico sobre técnicas de codificación para variables categóricas
 
 ## evidencia
 
-- Ingresar al análisis [Open Practicos](../Practicos/Practico_9.ipynb)
+- Descargar el análisis: [Practico_9.ipynb](../Practicos/Practico_9.ipynb)
