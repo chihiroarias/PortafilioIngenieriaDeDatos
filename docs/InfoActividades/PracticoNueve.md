@@ -1,10 +1,9 @@
 ---
-title: "UT2 - Actividad: Encoding Categórico y Pipelines (Adult Income)"
+title: "UT3 - Actividad: Encoding Categórico y Pipelines (Adult Income)"
 date: 2025-10-21
-author: chihiroarias
 ---
 
-# UT2 - Actividad 7: Encoding Categórico y Pipelines (Resumen)
+# UT3 - Actividad 9: Encoding Categórico y Pipelines (Resumen)
 
 ## Contexto
 
@@ -67,4 +66,4 @@ Análisis práctico sobre técnicas de codificación para variables categóricas
 
 ## evidencia
 
-- Ingresar al análisis [Open Practicos](../Practicos/practico_9.ipynb)
+- Ingresar al análisis [Open Practicos](../Practicos/Practico_9.ipynb)

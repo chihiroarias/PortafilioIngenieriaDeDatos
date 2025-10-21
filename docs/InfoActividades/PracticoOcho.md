@@ -1,9 +1,9 @@
 ---
-title: "UT2 - Práctica: Feature Engineering y Análisis rápido"
+title: "UT3 - Práctica: Feature Engineering y Análisis rápido"
 date: 2025-10-21
 ---
 
-# UT2 - Práctica: Feature Engineering y Análisis rápido
+# UT3 - Práctica: Feature Engineering y Análisis rápido
 
 ## Contexto
 
