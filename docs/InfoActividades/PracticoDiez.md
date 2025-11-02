@@ -93,4 +93,4 @@ Análisis comparativo de técnicas de reducción dimensional (PCA) y selección 
 
 ## Evidencias
 
-- Descargar el análisis: [Open Practicos](../Practicos/Practico_10.ipynb)
+- Descargar el análisis: [PracticoDiez](../Practicos/Practico_10.ipynb)

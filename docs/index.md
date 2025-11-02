@@ -14,3 +14,4 @@ date: 2025-10-09
 - Actividad 7 - Detectar y Corregir Sesgo con Fairlearn: [PracticoSiete](./InfoActividades/PracticoSiete.md)
 - Actividad 8 - :Práctica: Feature Engineering y Análisis rápido: [PracticoOcho](./InfoActividades/PracticoOcho.md)
 - Actividad 9 - Encoding Categórico y Pipelines: [PracticoNueve](./InfoActividades/PracticoNueve.md)
+- Actividad 9 - Encoding Categórico y Pipelines: [PracticoDiez](./InfoActividades/PracticoDiez.md.md)
