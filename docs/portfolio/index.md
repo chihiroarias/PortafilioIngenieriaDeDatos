@@ -17,3 +17,4 @@ date: 2025-10-09
 - Actividad 10 - PCA y Feature Selection: [PracticoDiez](../InfoActividades/PracticoDiez.md)
 - Actividad 11 - Temporal Feature Engineering: [PracticoOnce](../InfoActividades/PracticoOnce.md)
 - Actividad 12 - Análisis Geoespacial con GeoPandas: [PracticoDoce](../InfoActividades/PracticoDoce.md)
+- Actividad 13 - Preprocesamiento de Imágenes: [PracticoTrece](../InfoActividades/PracticoTrece.md)
