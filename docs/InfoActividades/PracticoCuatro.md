@@ -53,3 +53,4 @@ La idea normalizar los datos y relizar las combinaciones que nos permitan facili
 ## Reflexión
 
 La integración de múltiples fuentes (Parquet, CSV, JSON) mediante joins fue el núcleo del proyecto. Dominar las agregaciones con groupby transformó los datos en métricas clave, mientras que el gran volumen exigió optimizar el rendimiento con técnicas y formatos eficientes.
+

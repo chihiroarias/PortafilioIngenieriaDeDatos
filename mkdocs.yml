@@ -11,6 +11,10 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
   - glightbox
+  - mkdocs-jupyter:
+      include_source: True
+      execute: False
+      allow_errors: False
 markdown_extensions:
   - admonition
   - attr_list

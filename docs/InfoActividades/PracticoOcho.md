@@ -66,3 +66,4 @@ Breve análisis de creación y evaluación de features sobre un dataset sintéti
 ## Evidencias
 
 - Ingresar al análisis [Open Practicos](../Practicos/Practico_8.ipynb)
+

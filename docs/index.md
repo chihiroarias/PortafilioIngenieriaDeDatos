@@ -15,4 +15,5 @@ date: 2025-10-09
 - Actividad 8 - Práctica: Feature Engineering y Análisis rápido: [PracticoOcho](./InfoActividades/PracticoOcho.md)
 - Actividad 9 - Encoding Categórico y Pipelines: [PracticoNueve](./InfoActividades/PracticoNueve.md)
 - Actividad 10 - PCA y Feature Selection: [PracticoDiez](./InfoActividades/PracticoDiez.md)
-- Actividad 11 - Temporal Feature Engineering : [PracticoOnce](./InfoActividades/PracticoOnce.md)
+- Actividad 11 - Temporal Feature Engineering: [PracticoOnce](./InfoActividades/PracticoOnce.md)
+- Actividad 12 - Análisis Geoespacial con GeoPandas: [PracticoDoce](./InfoActividades/PracticoDoce.md)
