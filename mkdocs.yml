@@ -1,30 +1,221 @@
-site_name: "Portfolio"
+site_name: "Portfolio de Ingeniería de Datos"
+site_description: "Portafolio académico de proyectos de Ingeniería de Datos - Universidad Católica del Uruguay"
+site_author: "Chihiro Arias"
+
 theme:
   name: material
   language: es
+
+  # Paleta de colores moderna
+  palette:
+    # Modo claro
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+
+    # Modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+  # Tipografía personalizada
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  # Favicon e iconos
+  favicon: assets/Bruno Arias logo.png
+  logo: assets/Bruno Arias logo.png
+  icon:
+    repo: fontawesome/brands/github
+
+  # Características avanzadas de navegación
   features:
-    - navigation.sections
-    - navigation.indexes
+    # Navegación
+    - navigation.instant # Carga instantánea (SPA)
+    - navigation.tracking # Actualiza URL al hacer scroll
+    - navigation.tabs # Tabs en la parte superior
+    - navigation.tabs.sticky # Tabs siempre visibles
+    - navigation.sections # Secciones colapsables
+    - navigation.expand # Expandir secciones por defecto
+    - navigation.indexes # Páginas índice de sección
+    - navigation.top # Botón "volver arriba"
+    - navigation.footer # Navegación en footer
+
+    # Búsqueda
+    - search.suggest # Sugerencias de búsqueda
+    - search.highlight # Resaltar términos buscados
+    - search.share # Compartir búsqueda
+
+    # Tabla de contenidos
+    - toc.follow # TOC sigue el scroll
+    - toc.integrate # TOC integrado en navegación
+
+    # Header
+    - header.autohide # Ocultar header al hacer scroll
+
+    # Contenido
+    - content.code.copy # Botón copiar código
+    - content.code.annotate # Anotaciones en código
+    - content.tabs.link # Tabs linkeable
+
+# Información del repositorio
+repo_url: https://github.com/chihiroarias/PortafilioIngenieriaDeDatos
+repo_name: chihiroarias/Portfolio
+edit_uri: edit/main/docs/
+
+# Plugins con configuración mejorada
 plugins:
-  - search
+  - search:
+      lang: es
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
   - awesome-pages
+
   - git-revision-date-localized:
+      enable_creation_date: true
       fallback_to_build_date: true
-  - glightbox
+      type: timeago
+      timezone: America/Montevideo
+
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom
+
   - mkdocs-jupyter:
       include_source: True
       execute: False
       allow_errors: False
+      include_requirejs: true
+      theme: dark
+
+# Extensiones de Markdown avanzadas
 markdown_extensions:
+  # Básicas
+  - abbr
   - admonition
   - attr_list
+  - def_list
   - footnotes
+  - md_in_html
   - tables
+
+  # TOC
   - toc:
       permalink: true
+      permalink_title: Enlace permanente
+      toc_depth: 3
+
+  # PyMdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+
+  - pymdownx.betterem:
+      smart_enable: all
+
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  - pymdownx.critic:
+      mode: view
+
   - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
-  - pymdownx.emoji
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+  - pymdownx.inlinehilite
+
+  - pymdownx.keys
+
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: chihiroarias
+      repo: PortafilioIngenieriaDeDatos
+
+  - pymdownx.smartsymbols
+
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
   - pymdownx.tasklist:
       custom_checkbox: true
+      clickable_checkbox: true
+
+# CSS y JavaScript personalizados
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Información extra
+extra:
+  # Información social
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/chihiroarias
+      name: GitHub
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/chihiroarias
+      name: LinkedIn
+
+  # Analytics (opcional)
+  analytics:
+    feedback:
+      title: ¿Te resultó útil esta página?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Útil
+          data: 1
+          note: >-
+            ¡Gracias por tu feedback!
+        - icon: material/emoticon-sad-outline
+          name: Necesita mejoras
+          data: 0
+          note: >-
+            Gracias. Ayúdanos a mejorar dejando un comentario.
+
+  # Generador
+  generator: false
+
+# Copyright
+copyright: >
+  Copyright &copy; 2025 Chihiro Arias - Universidad Católica del Uruguay<br>
+  <a href="#__consent">Configurar cookies</a>

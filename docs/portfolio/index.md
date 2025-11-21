@@ -18,3 +18,4 @@ date: 2025-10-09
 - Actividad 11 - Temporal Feature Engineering: [PracticoOnce](../InfoActividades/PracticoOnce.md)
 - Actividad 12 - Análisis Geoespacial con GeoPandas: [PracticoDoce](../InfoActividades/PracticoDoce.md)
 - Actividad 13 - Preprocesamiento de Imágenes: [PracticoTrece](../InfoActividades/PracticoTrece.md)
+- Actividad 14 - Audio como Dato: [PracticoCatorce](../InfoActividades/PracticoCatorce.md)

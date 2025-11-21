@@ -1,0 +1,387 @@
+/* ============================================
+   ESTILOS PERSONALIZADOS - PORTFOLIO
+   ============================================ */
+
+/* Variables personalizadas */
+:root {
+  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --accent-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --border-radius: 12px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ============================================
+   TIPOGRAFÍA Y ENCABEZADOS
+   ============================================ */
+
+/* Títulos con gradiente */
+.md-typeset h1 {
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+}
+
+.md-typeset h2 {
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 1rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.md-typeset h3 {
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+/* ============================================
+   TARJETAS Y CONTENEDORES
+   ============================================ */
+
+/* Tarjetas de contenido mejoradas */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  transition: var(--transition);
+  border: none;
+  overflow: hidden;
+}
+
+.md-typeset .admonition:hover,
+.md-typeset details:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-2px);
+}
+
+/* Títulos de admonitions con gradiente */
+.md-typeset .admonition-title,
+.md-typeset summary {
+  font-weight: 700;
+  border-left: none;
+  background: linear-gradient(
+    90deg,
+    var(--md-primary-fg-color) 0%,
+    transparent 100%
+  );
+}
+
+/* ============================================
+   BLOQUES DE CÓDIGO
+   ============================================ */
+
+/* Código con mejor diseño */
+.md-typeset pre > code {
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  box-shadow: var(--card-shadow);
+}
+
+/* Botón de copiar código mejorado */
+.md-clipboard {
+  border-radius: 8px;
+  transition: var(--transition);
+}
+
+.md-clipboard:hover {
+  background-color: var(--md-accent-fg-color);
+  transform: scale(1.1);
+}
+
+/* Resaltado de código en línea */
+.md-typeset code {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 126, 234, 0.1) 0%,
+    rgba(118, 75, 162, 0.1) 100%
+  );
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  font-weight: 600;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+/* ============================================
+   TABLAS
+   ============================================ */
+
+/* Tablas modernas */
+.md-typeset table:not([class]) {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  border: none;
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--primary-gradient);
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85em;
+  padding: 1rem;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: rgba(102, 126, 234, 0.05);
+  transition: var(--transition);
+}
+
+.md-typeset table:not([class]) td {
+  padding: 1rem;
+}
+
+/* ============================================
+   LISTAS
+   ============================================ */
+
+/* Listas con mejor espaciado */
+.md-typeset ul li,
+.md-typeset ol li {
+  margin-bottom: 0.5rem;
+  line-height: 1.8;
+}
+
+/* Checkboxes personalizadas */
+.md-typeset .task-list-item input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+/* ============================================
+   ENLACES
+   ============================================ */
+
+/* Enlaces con efecto hover */
+.md-typeset a {
+  transition: var(--transition);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.md-typeset a:hover {
+  color: var(--md-accent-fg-color);
+  text-decoration-color: var(--md-accent-fg-color);
+  transform: translateX(2px);
+}
+
+/* ============================================
+   NAVEGACIÓN
+   ============================================ */
+
+/* Tabs de navegación mejorados */
+.md-tabs {
+  background: var(--primary-gradient);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Items de navegación con hover */
+.md-nav__item--active > .md-nav__link {
+  background: linear-gradient(
+    90deg,
+    rgba(102, 126, 234, 0.1) 0%,
+    transparent 100%
+  );
+  border-left: 3px solid var(--md-primary-fg-color);
+  font-weight: 600;
+}
+
+/* ============================================
+   BOTONES Y ELEMENTOS INTERACTIVOS
+   ============================================ */
+
+/* Botón "volver arriba" mejorado */
+.md-top {
+  background: var(--primary-gradient);
+  box-shadow: var(--card-shadow);
+  transition: var(--transition);
+}
+
+.md-top:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: scale(1.1) translateY(-2px);
+}
+
+/* ============================================
+   IMÁGENES Y MEDIOS
+   ============================================ */
+
+/* Imágenes con efecto hover */
+.md-typeset img {
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  transition: var(--transition);
+}
+
+.md-typeset img:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: scale(1.02);
+}
+
+/* ============================================
+   NOTEBOOKS JUPYTER
+   ============================================ */
+
+/* Notebooks con mejor diseño */
+.jp-Cell {
+  border-radius: var(--border-radius);
+  margin-bottom: 1.5rem;
+  box-shadow: var(--card-shadow);
+}
+
+.jp-InputArea,
+.jp-OutputArea {
+  border-radius: var(--border-radius);
+}
+
+/* Outputs de notebook */
+.jp-OutputArea-output {
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+/* Footer con gradiente */
+.md-footer {
+  background: var(--primary-gradient);
+}
+
+.md-footer-meta {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================
+   BÚSQUEDA
+   ============================================ */
+
+/* Resultados de búsqueda mejorados */
+.md-search-result__article {
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.md-search-result__article:hover {
+  box-shadow: var(--card-shadow);
+  transform: translateX(4px);
+}
+
+/* ============================================
+   BADGES Y ETIQUETAS
+   ============================================ */
+
+/* Badges personalizados */
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.375rem;
+  background: var(--primary-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+/* ============================================
+   MODO OSCURO - AJUSTES
+   ============================================ */
+
+[data-md-color-scheme="slate"] {
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3),
+    0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.4),
+    0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 126, 234, 0.2) 0%,
+    rgba(118, 75, 162, 0.2) 100%
+  );
+  border-color: rgba(102, 126, 234, 0.3);
+}
+
+[data-md-color-scheme="slate"] .jp-OutputArea-output {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ============================================
+   ANIMACIONES
+   ============================================ */
+
+/* Animación de entrada para contenido */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.md-content__inner {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* ============================================
+   RESPONSIVE - AJUSTES MÓVIL
+   ============================================ */
+
+@media screen and (max-width: 76.1875em) {
+  .md-typeset h1 {
+    font-size: 1.75rem;
+  }
+
+  .md-typeset table:not([class]) th,
+  .md-typeset table:not([class]) td {
+    padding: 0.75rem;
+    font-size: 0.9em;
+  }
+}
+
+/* ============================================
+   UTILIDADES
+   ============================================ */
+
+/* Clase para centrar contenido */
+.center {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+/* Clase para destacar texto */
+.highlight-text {
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+/* Separador visual */
+.divider {
+  height: 2px;
+  background: var(--primary-gradient);
+  margin: 2rem 0;
+  border-radius: 2px;
+}
